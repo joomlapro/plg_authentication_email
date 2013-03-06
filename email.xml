@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="3.1" type="plugin" group="authentication" method="upgrade">
+	<name>plg_authentication_email</name>
+	<author>Bruno Batista</author>
+	<creationDate>March 2013</creationDate>
+	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>bruno@atomtech.com.br</authorEmail>
+	<authorUrl>http://www.atomtech.com.br</authorUrl>
+	<version>3.1.0</version>
+	<description>PLG_AUTHENTICATION_EMAIL_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="email">email.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="pt-BR">language/pt-BR/pt-BR.plg_authentication_email.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.plg_authentication_email.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
